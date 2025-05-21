@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>    
+    <header>
+        <h1>UNSAAC</h1>
+    </header>
+    <aside>
+        <h2>GENERACION DE CODIGO</h2>
+        <form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required><br/><br/>
+
+            <label for="dni">Ingrese DNI:</label>
+            <input type="text" id="dni" name="dni" placeholder="Ingresa tu DNI" required><br/><br/>
+    
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required><br/><br/>
+    
+            <label for="telefono">Número de celular:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de celular" pattern="[0-9]{9}" required><br/><br/>             
+
+            <label for="idioma">Idioma:</label>
+            <select id="idioma" name="idioma" required>
+                <option value="ingles">Inglés</option>
+                <option value="frances">Francés</option>
+                <option value="aleman">Alemán</option>
+                <option value="portugues">Portugués</option>
+            </select><br><br/>
+            <p id="mensaje"></p>
+            <button onclick="mostrarMensaje()">Enviar</button>
+        </form>
+        <br/><br/>
+    </aside>
+  
+
+    
+    
+</body>
+<footer>
+     <div class="footer-grid-container">
+        <div class="contenedor">
+            <h3>CONTACTO</h3>
+            <P> Dirección: Av. De la Cultura, Nro. 733, Cusco – Perú </P>
+            <P>Teléfonos: 51.84.232398 / 084 222271 </P>
+            <P>Apartado Postal Nro. 921 – Cusco, Perú</P>
+        </div>
+
+        <div class="contenedor" >
+            <h3> CENTRO DE PRODUCCION</h3>
+            <P>Instituto de Idiomas </P>
+            <P>  Instituto de Sistemas</P>
+            <P>  Centro de Capacitación en Informática</P>
+            <P>  Clínica Odontológica</P>
+            <P>  Laboratorio de Cromatología </P>
+        </div>
+
+        <div class="cont-logos">
+            <img src="img/whatsapp.png" alt="imagen"> 
+            <img src="img/twitter.png" alt="imagen">
+            <img src="img/tiktok.png" alt="imagen"> 
+            <img src="img/instagram.png" alt="imagen">
+        </div>
+    </div>
+    <p>© 2025 UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO – Todos los derechos reservados </p>
+</footer>
+<script src="script.js"></script>
+</html>
